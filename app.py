@@ -2,6 +2,7 @@ import streamlit as st
 import subprocess
 import signal
 import os
+import cv2
 
 def main():
     st.title("Hand Gesture Recognition using OpenCV, TensorFlow, and MediaPipe")
