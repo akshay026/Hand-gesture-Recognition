@@ -1,4 +1,4 @@
-import opencv-python 
+import cv2
 import numpy as np
 import mediapipe as mp
 import tensorflow as tf
@@ -20,7 +20,7 @@ print(classNames)
 
 
 # Initialize the webcam
-cap = opencv-python.VideoCapture(0)
+cap = cv2.VideoCapture(0)
 
 while True:
     # Read each frame from the webcam
@@ -29,8 +29,8 @@ while True:
     x, y, c = frame.shape
 
     # Flip the frame vertically
-    frame = opencv-python.flip(frame, 1)
-    framergb = opencv-python.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    frame = cv2.flip(frame, 1)
+    framergb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
     # Get hand landmark prediction
     result = hands.process(framergb)
