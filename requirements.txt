@@ -3,7 +3,7 @@ mediapipe==0.8.11
 tensorflow==2.7.0
 keras== 2.7.0
 easyocr
-streamlit
+
 opencv
 Pillow
 mmdet
