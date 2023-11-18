@@ -1,9 +1,8 @@
-numpy==1.23.1
-mediapipe==0.8.11
-tensorflow==2.7.0
-keras== 2.7.0
+numpy
+mediapipe
+tensorflow
+keras
 easyocr
-
 opencv
 Pillow
 mmdet
@@ -13,4 +12,4 @@ paddlepaddle
 mycolorpy
 plotly
 plotly-express
-mmcv-full --no-binary mmcv-full
+
