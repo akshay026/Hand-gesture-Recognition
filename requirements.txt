@@ -3,7 +3,7 @@ mediapipe
 tensorflow
 keras
 easyocr
-opencv
+opencv-python-headless
 Pillow
 mmdet
 mmocr
